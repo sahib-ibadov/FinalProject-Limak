@@ -1,0 +1,45 @@
+.row__div{
+    display: flex;
+    gap: 20px;
+    
+
+}
+.div__p{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.divvp{
+    flex-direction: column;
+}
+.div__1{
+    
+    /* width: 40%; */
+    height: 700px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 7px;
+}
+.div____p{
+    display: flex;
+  gap: 270px;
+ 
+  margin-top: 10px;
+}
+.divvv{
+    height: 2px;
+    border: 1px solid grey;
+}
+.div__pp{
+    display: flex;
+    gap: 270px;
+    margin-top: 10px;
+}
+.divvvvv{
+border: 0.1px solid grey;
+}
+.olkelr__b{
+    margin-left: 13%;
+    font-size: 20PX;
+    margin-top: 50px;
+}

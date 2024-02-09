@@ -1,0 +1,167 @@
+.Mazgazlar__div{
+    display: flex;
+   
+}
+
+
+.card { 
+    position: relative; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-direction: column; 
+    flex-direction: column; 
+    min-width: 0; 
+    word-wrap: break-word; 
+    background-color: #fff; 
+    background-clip: border-box; 
+    border: 1px solid rgba(0,0,0,.125); 
+    border-radius: .25rem;
+} 
+
+.card { 
+    background: #fff; 
+    box-shadow: 0 4px 10px rgba(0,0,0,.05); 
+    border-radius: 8px;
+} 
+
+.card-sidebar { 
+    padding: 10px 0;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+ul { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+.nav { 
+    display: -ms-flexbox; 
+    display: flex; 
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap; 
+    padding-left: 0; 
+    margin-bottom: 0; 
+    list-style: none;
+} 
+
+.flex-column { 
+    -ms-flex-direction: column!important; 
+    flex-direction: column!important;
+} 
+
+.card-sidebar .nav  { 
+    position: relative; 
+    flex-wrap: nowrap;
+} 
+
+@media (min-width: 576px){ 
+  .d-sm-block { 
+    display: block!important;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .d-md-none { 
+    display: none!important;
+  } 
+}     
+
+@media screen and (min-width: 576px){ 
+  .d-sm-block { 
+    display: block!important;
+  } 
+}     
+
+@media screen and (min-width: 768px){ 
+  .d-md-none { 
+    display: none!important;
+  } 
+}     
+
+img { 
+    vertical-align: middle; 
+    border-style: none;
+} 
+
+img { 
+    max-width: 100%;
+} 
+
+.card img { 
+    width: auto;
+} 
+
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+    background-color: transparent;
+} 
+
+a { 
+    color: #373736; 
+    outline: 0;
+} 
+
+.nav-link { 
+    display: block; 
+    padding: .5rem 1rem;
+} 
+
+.nav-link { 
+    color: #373736;
+} 
+
+a:hover { 
+    color: #0056b3; 
+    text-decoration: underline;
+} 
+
+.nav a  { 
+    font-size: 15px; 
+    font-weight: 600; 
+    line-height: 18px; 
+    margin-left: 12px; 
+    margin-right: 12px; 
+    color: #373736;
+} 
+
+.nav-link:hover { 
+    text-decoration: none;
+} 
+
+.card-sidebar .nav-link  { 
+    margin: 0; 
+    padding: 0 20px; 
+    font-weight: 500; 
+    font-size: 16px; 
+    line-height: 45px;
+} 
+
+.card-sidebar .nav-link:hover  { 
+    color: #f05835;
+} 
+
+.card-sidebar .nav-link.active  { 
+    color: #f05835;
+} 
+
+.card-sidebar .nav-link.active ,.card-sidebar .nav-link:hover  { 
+    color: #f05835;
+} 
+
+.card-sidebar .nav-icon  { 
+    display: inline-block; 
+    width: 24px; 
+    height: 24px; 
+    margin-right: 20px;
+} 
+
+svg { 
+    overflow: hidden; 
+    vertical-align: middle;
+} 
+
+

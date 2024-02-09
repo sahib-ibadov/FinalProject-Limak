@@ -1,0 +1,65 @@
+   .div__111 {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div__mapp {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div___1111 {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div___mappp {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div__umumiii {
+       display: flex;
+       gap: 10px;
+       justify-content: space-between;
+       width: 80%;
+       background-color: white;
+       padding: 1%;
+       height: 200px;
+       border-radius: 7px;
+   }
+
+   .div__qulaqliq {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div__alqe {
+       display: flex;
+       gap: 10px;
+   }
+
+   .div__3333 {
+       display: flex;
+       gap: 10px;
+   }
+
+   .Elaqe {
+       align-items: center;
+       justify-content: center;
+       margin-left: 12%;
+       margin-top: 3%;
+       position: relative;
+
+       &::after {
+           content: "";
+           position: absolute;
+           left: 0;
+           top: 0;
+           width: 7px;
+           height: 100%;
+           background: #f05835;
+           border-top-right-radius: 8px;
+           border-bottom-right-radius: 8px;
+       }
+   }

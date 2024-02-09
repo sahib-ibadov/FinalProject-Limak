@@ -1,0 +1,41 @@
+.div__a{
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+.foterrr{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  
+    
+  
+}
+
+.div__aa{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.footerSvg{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 700px;
+    margin-top: 20px;
+
+}
+.div__image{
+    display: flex;
+    gap: 30px;
+}
+.Footerrr{
+    background-color: #373736;
+    margin-top: 20px;
+}
+.footer__section1{
+    margin-top: 30px;
+}
+.divv__123{
+    margin-top: 30px;
+}

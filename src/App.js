@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
+import ROUTER from './router/index.router';
+import { useEffect, useState } from 'react';
+import MainContext from './context/context';
+const router = createBrowserRouter(ROUTER)
 
 function App() {
+  const [data, setData] = useState([])
+  const [shop, setShop] = useState([])
+  const [news, setNews] = useState([])
+
+
+
+
+  const datas = {
+    data, setData
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainContext.Provider value={datas}>
+      <div className="App">
+        <RouterProvider router={router} />
+      </div>
+    </MainContext.Provider>
   );
 }
 

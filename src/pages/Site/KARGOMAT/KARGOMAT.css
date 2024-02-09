@@ -1,0 +1,17 @@
+.Kargomat__div{
+    width: 70%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-top: 2%;
+    padding: 22px;
+    border-radius: 7px;
+}
+.kargomat__div1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 55%;
+}
