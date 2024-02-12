@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home__admin {
+
+  ul {
+
+    li {
+
+
+      a {
+        margin: 0;
+
+        text-decoration: none;
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        font-size: 20px;
+
+      }
+    }
+  }
+}
+
+.admin__ui {
+
+  ul {
+
+    /* margin: 0;
+        padding: 0; */
+    li {
+      a {
+        text-decoration: none;
+        display: flex;
+        gap: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.Linkkk {
+  display: flex;
+  align-items: center;
+}
+
+.admin__left {
+
+  margin-top: 6%;
+  width: 120%;
+
+
+}
+
+.admin__left {
+  width: 250px;
+  padding: 20px;
+}
+
+.admin__left h5 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.admin__left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin__left ul li {
+  margin-bottom: 10px;
+}
+
+.admin__left ul li a {
+  text-decoration: none;
+  color: #ccc;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.admin__left ul li a .fa-solid,
+.admin__left ul li a .fa-regular {
+  margin-right: 10px;
+}
+
+.admin__left ul li a:hover {
+  color: #fff;
+  background-color: #5D87FF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Categories.css */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody+tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-borderless th,
+.table-borderless td,
+.table-borderless thead th,
+.table-borderless tbody+tbody {
+  border: 0;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  color: #212529;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.table-primary,
+.table-primary>th,
+.table-primary>td {
+  background-color: #b8daff;
+}
+
+.table-hover .table-primary:hover {
+  background-color: #9fcdff;
+}
+
+/* Add more custom styles as needed */
+
+
+.activeSideBar {
+  color: #fff !important;
+  background-color: #5D87FF !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3) !important;
+}

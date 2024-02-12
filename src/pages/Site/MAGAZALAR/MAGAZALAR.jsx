@@ -15,7 +15,7 @@ function CustomTabPanel(props) {
 
   React.useEffect(()=>{
 
-axios.get('https://localhost:7211/shops?country=1&page=1').then(data=>{
+axios.get('https://localhost:7211/categories').then(data=>{
   setShops(data)
   console.log(data);
 }).catch(e=>{
@@ -330,7 +330,7 @@ const MAGAZALAR = () => {
           <CustomTabPanel value={value} index={1}>
           <div className="row">
               <div className='col-3'>
-                <div ><a href="" >  <img className='image' src="https://limakaz.s3.eu-west-2.amazonaws.com/public/shops/713.png" alt="" /></a>
+                <div ><a href="" >  <img className='image'  style={{height:"100px",width:"700px"}} src="https://limakaz.s3.eu-west-2.amazonaws.com/public/shops/713.png" alt="" /></a>
                 </div>
                 sbvsgs
 

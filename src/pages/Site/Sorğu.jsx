@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Sorğu = () => {
   return (
     <div>
-     
+      
     </div>
   )
 }
 
-export default Header
+export default Sorğu

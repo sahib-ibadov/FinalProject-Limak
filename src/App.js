@@ -3,6 +3,7 @@ import './App.css';
 import ROUTER from './router/index.router';
 import { useEffect, useState } from 'react';
 import MainContext from './context/context';
+import { Toaster } from 'react-hot-toast';
 const router = createBrowserRouter(ROUTER)
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <MainContext.Provider value={datas}>
       <div className="App">
         <RouterProvider router={router} />
+        <Toaster position='top-left' />
       </div>
     </MainContext.Provider>
   );

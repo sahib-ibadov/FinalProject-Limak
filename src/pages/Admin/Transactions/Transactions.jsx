@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Transactions = () => {
   return (
     <div>
-     
+      
     </div>
   )
 }
 
-export default Header
+export default Transactions

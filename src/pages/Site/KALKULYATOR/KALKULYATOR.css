@@ -1,720 +1,106 @@
-
-
-
-* { 
-    box-sizing: border-box;
-} 
-
-* { 
-    margin: 0; 
-    padding: 0; 
-    border: none; 
-    outline: 0; 
-    font-size: 100%;
-} 
-
-.col-12,.col-lg-8 { 
-    position: relative; 
-    width: 100%; 
-    padding-right: 15px; 
-    padding-left: 15px;
-} 
-
-.col-12 { 
-    -ms-flex: 0 0 100%; 
-    flex: 0 0 100%; 
-    max-width: 100%;
-} 
-
-[class*="col-"],[class*="col-lg-"] { 
-    padding-left: 10px; 
-    padding-right: 10px;
-} 
-
-.row { 
-    display: -ms-flexbox; 
-    display: flex; 
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap; 
-    margin-right: -15px; 
-    margin-left: -15px;
-} 
-
-.row { 
-    margin-left: -10px; 
-    margin-right: -10px;
-} 
-
-body { 
-    margin: 0; 
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
-    font-size: 1rem; 
-    font-weight: 400; 
-    line-height: 1.5; 
-    color: #212529; 
-    text-align: left; 
-    background-color: #fff;
-} 
-
-body { 
-    font-family: san francisco; 
-    color: #373736; 
-    background-color: #e5e5e5;
-} 
-
-html { 
-    font-family: sans-serif; 
-    line-height: 1.15; 
-    -webkit-text-size-adjust: 100%; 
-    -webkit-tap-highlight-color: transparent;
-} 
-
-:root { 
-    --litepicker-month-width: calc(var(--litepicker-day-width) * 7); 
-    --litepicker-day-width: 38px; 
-} 
-
-:root { 
-    --theme-color1: #232331; 
-    --theme-color2: #F15834; 
-    --theme-color3: #ff9205; 
-    --bg-theme-color1: var(--theme-color1); 
-    --bg-theme-color2: var(--theme-color2); 
-    --bg-theme-color3: var(--theme-color3); 
-    --border-theme-color1: var(--theme-color1); 
-    --border-theme-color2: var(--theme-color2); 
-    --border-theme-color3: var(--theme-color3); 
-    --headings-color: #003c38; 
-    --text-font: "Source Sans Pro",sans-serif; 
-    --title-font: "Source Sans Pro",sans-serif; 
-    --h2-font-size: 42px; 
-    --h2-font-weight: 800; 
-    --sec-title-color: var(--headings-color); 
-    --sec-title-font-size: var(--h2-font-size); 
-    --sec-title-font-family: var(--title-font); 
-    --sec-title-font-weight: var(--h2-font-weight); 
-    --sec-title-subtitle-font-family: var(--text-font); 
-    --theme-light-background-text-color: var(--headings-color); 
-} 
-
-.form-calc { 
-    padding: 40px 65px 50px;
-} 
-
-*,:after,:before { 
-    box-sizing: border-box;
-} 
-
-.form-calc-header { 
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
-    margin-bottom: 10px;
-} 
-
-.form-calc-title { 
-    display: flex; 
-    align-items: center;
-} 
-
-.form-calc-title { 
-    margin-bottom: 10px;
-} 
-
-.form-reset { 
-    margin-bottom: 10px;
-} 
-
-.col-6 { 
-    position: relative; 
-    width: 100%; 
-    padding-right: 15px; 
-    padding-left: 15px;
-} 
-
-.col-6 { 
-    -ms-flex: 0 0 50%; 
-    flex: 0 0 50%; 
-    max-width: 50%;
-} 
-
-[class*="col-"] { 
-    padding-left: 10px; 
-    padding-right: 10px;
-} 
-
-.col-12,.col-sm-6 { 
-    position: relative; 
-    width: 100%; 
-    padding-right: 15px; 
-    padding-left: 15px;
-} 
-
-@media (min-width: 576px){ 
-  .col-sm-6 { 
-    -ms-flex: 0 0 50%; 
-    flex: 0 0 50%; 
-    max-width: 50%;
-  } 
-}     
-
-[class*="col-"],[class*="col-sm-"] { 
-    padding-left: 10px; 
-    padding-right: 10px;
-} 
-
-img { 
-    vertical-align: middle; 
-    border-style: none;
-} 
-
-img { 
-    max-width: 100%;
-} 
-
-.card img { 
-    width: auto;
-} 
-
-.form-calc-title img  { 
-    margin-right: 10px;
-} 
-
-h3 { 
-    margin-top: 0; 
-    margin-bottom: .5rem;
-} 
-
-h3 { 
-    margin-bottom: .5rem; 
-    font-weight: 500; 
-    line-height: 1.2;
-} 
-
-h3 { 
-    font-size: 1.75rem;
-} 
-
-h3 { 
-    margin-bottom: 0;
-} 
-
-.form-calc-title h3  { 
-    font-weight: 700; 
-    font-size: 14px; 
-    line-height: 17px;
-} 
-
-button { 
-    border-radius: 0;
-} 
-
-button { 
-    margin: 0; 
-    font-family: inherit; 
-    font-size: inherit; 
-    line-height: inherit;
-} 
-
-button { 
-    overflow: visible;
-} 
-
-button { 
-    text-transform: none;
-} 
-
-
-.btn { 
-    display: inline-block; 
-    font-weight: 400; 
-    color: #212529; 
-    text-align: center; 
-    vertical-align: middle; 
-    -webkit-user-select: none; 
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none; 
-    background-color: transparent; 
-    border: 1px solid transparent; 
-    padding: .375rem .75rem; 
-    font-size: 1rem; 
-    line-height: 1.5; 
-    border-radius: .25rem; 
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-} 
-
-.btn-danger { 
-    color: #fff; 
-    background-color: #dc3545; 
-    border-color: #dc3545;
-} 
-
-.btn-link { 
-    font-weight: 400; 
-    color: #007bff; 
-    text-decoration: none;
-} 
-
-.btn-link { 
-    background: 0 0; 
-    border: none; 
-    font-size: 13px; 
-    line-height: 15px; 
-    color: #5f5f5e;
-} 
-
-[type="button"]:not(:disabled),button:not(:disabled) { 
-    cursor: pointer;
-} 
-
-.form-reset .btn-link  { 
-    display: flex; 
-    align-items: center;
-} 
-
-.btn:not(:disabled):not(.disabled) { 
-    cursor: pointer;
-} 
-
-.btn:hover { 
-    color: #212529; 
-    text-decoration: none;
-} 
-
-.btn-danger:hover { 
-    color: #fff; 
-    background-color: #c82333; 
-    border-color: #bd2130;
-} 
-
-.btn-link:hover { 
-    color: #0056b3; 
-    text-decoration: underline;
-} 
-
-.btn-link:hover,.btn-link:not(:disabled):not(.disabled):active { 
-    background: 0 0; 
-    color: #5f5f5e;
-} 
-
-select { 
-    margin: 0; 
-    font-family: inherit; 
-    font-size: inherit; 
-    line-height: inherit;
-} 
-
-select { 
-    text-transform: none;
-} 
-
-select { 
-    word-wrap: normal;
-} 
-
-.custom-select { 
-    display: inline-block; 
-    width: 100%; 
-    height: calc(1.5em + .75rem + 2px); 
-    padding: .375rem 1.75rem .375rem .75rem; 
-    font-size: 1rem; 
-    font-weight: 400; 
-    line-height: 1.5; 
-    color: #495057; 
-    vertical-align: middle; 
-    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat; 
-    border: 1px solid #ced4da; 
-    border-radius: .25rem; 
-    -webkit-appearance: none; 
-    -moz-appearance: none; 
-    appearance: none;
-} 
-
-.custom-select { 
-    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-} 
-
-.custom-select { 
-    background-color: #f5f5f7; 
-    background-image: url(https://limak.az/new_front/assets/img/icons/caret-down.svg); 
-    background-repeat: no-repeat; 
-    background-position-x: calc(100% - 15px); 
-    background-position-y: center; 
-    border: 1px solid #dfdfdf; 
-    border-radius: 8px; 
-    margin: 12px 0; 
-    padding-left: 15px; 
-    width: 100%; 
-    height: 50px; 
-    font-weight: 500; 
-    font-size: 15px; 
-    line-height: 17px; 
-   
-} 
-
-.form-calc .custom-select  { 
-    height: 40px;
-} 
-
-.form-calc .custom-select  { 
-    margin-top: 0!important;
-} 
-
-.input-group { 
-    position: relative; 
-    display: -ms-flexbox; 
-    display: flex; 
-    -ms-flex-wrap: wrap; 
-    flex-wrap: wrap; 
-    -ms-flex-align: stretch; 
-    align-items: stretch; 
-    width: 100%;
-} 
-
-.input-group { 
-    flex-wrap: nowrap;
-} 
-
-.form-calc .input-group  { 
-    margin: 12px 0;
-} 
-
-input { 
-    margin: 0; 
-    font-family: inherit; 
-    font-size: inherit; 
-    line-height: inherit;
-} 
-
-input { 
-    overflow: visible;
-} 
-
-.form-control { 
-    display: block; 
-    width: 100%; 
-    height: calc(1.5em + .75rem + 2px); 
-    padding: .375rem .75rem; 
-    font-size: 1rem; 
-    font-weight: 400; 
-    line-height: 1.5; 
-    color: #495057; 
-    background-color: #fff; 
-    background-clip: padding-box; 
-    border: 1px solid #ced4da; 
-    border-radius: .25rem; 
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-} 
-
-.form-control { 
-    background: #f5f5f7; 
-    border: 1px solid #dfdfdf; 
-    border-radius: 8px!important; 
-    height: 50px; 
-    font-size: 15px; 
-    line-height: 17px; 
-    padding: 15px; 
-    color: #818181;
-} 
-
-.form-calc .form-control  { 
-    height: 40px; 
-    padding: 10px;
-} 
-
-.form-calc .form-control  { 
-    margin: 12px 0;
-} 
-
-.form-calc .total  { 
-    background: #fff; 
-    border: 1px solid #dfdfdf; 
-    border-radius: 8px; 
-    margin: 12px 0; 
-    display: flex; 
-    align-items: center;
-} 
-
-.btn-primary { 
-    color: #fff; 
-    background-color: #007bff; 
-    border-color: #007bff;
-} 
-
-.btn-block { 
-    display: block; 
-    width: 100%;
-} 
-
-.form-calc-submit { 
-    margin: 12px 0;
-} 
-
-.btn-submit { 
-    background: linear-gradient(180deg,#FC7B5D 0%,#F05835 100%); 
-    border: none; 
-    border-radius: 8px; 
-    font-weight: 600; 
-    font-size: 15px; 
-    line-height: 18px; 
-    padding: 16px 25px;
-} 
-
-.btn-block { 
-    width: 100%;
-} 
-
-.btn-primary:hover { 
-    color: #fff; 
-    background-color: #0069d9; 
-    border-color: #0062cc;
-} 
-
-.form-info { 
-    display: flex; 
-    align-items: center; 
-    padding-top: 12px; 
-    margin-top: 12px;
-} 
-
-.form-reset .btn-link img  { 
-    margin-right: 10px;
-} 
-
-.input-group > .form-control  { 
-    position: relative; 
-    -ms-flex: 1 1 auto; 
-    flex: 1 1 auto; 
-    width: 1%; 
-    min-width: 0; 
-    margin-bottom: 0;
-} 
-
-.input-group-btn-append > .form-control  { 
-    border-radius: 8px 0 0 8px!important; 
-    border-right-width: 0;
-} 
-
-.input-group-btn-append > .form-control  { 
-    background: #f5f5f7;
-} 
-
-.form-calc .input-group .form-control  { 
-    margin: 0;
-} 
-
-.input-group:not(.has-validation) > .form-control:not(:last-child)  { 
-    border-top-right-radius: 0; 
-    border-bottom-right-radius: 0;
-} 
-
-.input-group-append { 
-    display: -ms-flexbox; 
+/* KALKULYATOR.css */
+
+/* Genel stil */
+.Kal {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-calc-title {
     display: flex;
-} 
-
-.input-group-append { 
-    margin-left: -1px;
-} 
-
-.input-group > .custom-select  { 
-    position: relative; 
-    -ms-flex: 1 1 auto; 
-    flex: 1 1 auto; 
-    width: 1%; 
-    min-width: 0; 
-    margin-bottom: 0;
-} 
-
-.form-calc .total-label  { 
-    padding: 12px; 
-    font-weight: 600; 
-    font-size: 15px; 
-    line-height: 16px; 
-    border-right: 1px solid #dfdfdf;
-} 
-
-.form-calc .total-price  { 
-    flex: 1; 
-    text-align: center; 
-    line-height: normal;
-} 
-
-.form-info img  { 
-    margin-right: 10px;
-} 
-
-.dropdown { 
-    position: relative;
-} 
-
-.btn-group { 
-    position: relative; 
-    display: -ms-inline-flexbox; 
-    display: inline-flex; 
-    vertical-align: middle;
-} 
-
-.input-group-btn-append .dropdown  { 
-    height: 100%;
-} 
-
-.form-calc .total-price span  { 
-    font-weight: 700; 
-    font-size: 18px; 
-    line-height: 16px;
-} 
-
-.btn-outline-primary { 
-    color: #007bff; 
-    border-color: #007bff;
-} 
-
-.dropdown-toggle { 
-    white-space: nowrap;
-} 
-
-.btn-group > .btn  { 
-    position: relative; 
-    -ms-flex: 1 1 auto; 
-    flex: 1 1 auto;
-} 
-
-.input-group-append .btn  { 
-    position: relative; 
-    z-index: 2;
-} 
-
-.input-group-append .btn  { 
-    border: 1px solid #dfdfdf; 
-    font-weight: 500; 
-    font-size: 14px; 
-    line-height: 17px; 
-    color: #373736; 
-    padding: 10px; 
-    padding-right: 28px; 
-    background: #f5f5f7; 
-    border-radius: 0 8px 8px 0;
-} 
-
-.input-group > .input-group-append > .btn-group > .btn  { 
-    border-top-left-radius: 0; 
-    border-bottom-left-radius: 0;
-} 
-
-.dropdown-toggle:after { 
-    display: inline-block; 
-    margin-left: .255em; 
-    vertical-align: .255em; 
-    content: ""; 
-    border-top: .3em solid; 
-    border-right: .3em solid transparent; 
-    border-bottom: 0; 
-    border-left: .3em solid transparent;
-} 
-
-.dropdown-toggle:after,.main-menu .navbar-header,li > ul , .mobile-menu .navigation li > ul > li > ul, .sticky-header .main-menu .navigation > li::before,.sticky-header .navbar-header,.sticky-header .outer-box,.tp-bannertimer { 
-    display: none;
-} 
-
-.dropdown-toggle:after { 
-    position: absolute; 
-    right: 0; 
-    top: 50%; 
-    transform: translateY(-50%); 
-    width: 9px; 
-    height: 6px; 
-    border: none; 
-    background-image: url(https://limak.az/new_front/assets/img/icons/caret-down.svg); 
-    background-repeat: no-repeat; 
-    margin-left: 0;
-} 
-
-.input-group-append .btn::after { 
-    margin-right: 10px;
-} 
-
-.dropdown:not(.dropleft) .dropdown-toggle.dropdown-toggle-no-caret::after { 
-    display: none!important;
-} 
-
-.btn-outline-primary:hover { 
-    color: #fff; 
-    background-color: #007bff; 
-    border-color: #007bff;
-} 
-
- .btn-group > .btn:hover { 
-    z-index: 1;
-} 
-
-ul { 
-    margin-top: 0; 
-    margin-bottom: 1rem;
-} 
-
-.dropdown-menu { 
-    position: absolute; 
-    top: 100%; 
-    left: 0; 
-    z-index: 1000; 
-    display: none; 
-    float: left; 
-    min-width: 10rem; 
-    padding: .5rem 0; 
-    margin: .125rem 0 0; 
-    font-size: 1rem; 
-    color: #212529; 
-    text-align: left; 
-    list-style: none; 
-    background-color: #fff; 
-    background-clip: padding-box; 
-    border: 1px solid rgba(0,0,0,.15); 
-    border-radius: .25rem;
-} 
-
-.dropdown-menu { 
-    border: none; 
-    box-shadow: 0 4px 30px rgba(0,0,0,.2); 
-    left: 0!important; 
-    top: 10px!important; 
-    min-width: 90px; 
-    padding: 4px 0; 
-    border-radius: 8px;
-} 
-
-.dropdown-toggle::after, .main-menu .navbar-header, .mobile-menu .navigation li > ul, .mobile-menu .navigation li > ul > li > ul, .sticky-header .main-menu .navigation > li::before, .sticky-header .navbar-header, .sticky-header .outer-box, .tp-bannertimer { 
-    display: none;
-} 
-
-.btn-group-vertical > .btn:hover, .btn-group > .btn:hover { 
-    z-index: 1;
-} 
-
-.dropdown-item { 
-    display: block; 
-    width: 100%; 
-    padding: .25rem 1.5rem; 
-    clear: both; 
-    font-weight: 400; 
-    color: #212529; 
-    text-align: inherit; 
-    white-space: nowrap; 
-    background-color: transparent; 
-    border: 0;
-} 
-
-.dropdown-item { 
-    padding: 8px 14px; 
-    display: flex; 
     align-items: center;
-} 
-
-.dropdown-item:hover { 
-    color: #16181b; 
-    text-decoration: none; 
-    background-color: #e9ecef;
-} 
-
-
+    margin-bottom: 20px;
+  }
+  
+  .form-calc-title img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .form-calc-title h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .form-reset {
+    margin-left: auto;
+  }
+  
+  .form-reset button {
+    background: none;
+    border: none;
+    color: #f44336;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .form-reset button img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Giriş alanları */
+  .input-group {
+    position: relative;
+  }
+  
+  .input-group .form-control,
+  .input-group .custom-select {
+    border-radius: 5px;
+  }
+  
+  .input-group-btn-append {
+    flex: 0 0 auto;
+  }
+  
+  /* Hesap düğmesi */
+  .form-calc-submit {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-calc-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Toplam alanı */
+  .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  
+  .total-label {
+    font-weight: bold;
+  }
+  
+  .total-price {
+    color: #28a745;
+  }
+  

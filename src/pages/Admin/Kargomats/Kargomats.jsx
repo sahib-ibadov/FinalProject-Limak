@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+const Kargomats = () => {
   return (
     <div>
-     
+      
     </div>
   )
 }
 
-export default Header
+export default Kargomats
