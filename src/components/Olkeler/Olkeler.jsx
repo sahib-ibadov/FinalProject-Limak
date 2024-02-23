@@ -6,7 +6,7 @@ const Olkeler = () => {
         <div>
         <b className='olkelr__b'>ÖLKƏLƏR ÜZRƏ TARİFLƏR</b>
             <div className='container'>
-                <div className='row justify-content-center mt-5 gap-4'>
+                <div className='row justify-content-center mt-5 gap-4'style={{gap:"40px"}}>
                     <div className='div__1 col-md-5'>
                         <div className='row__div'> <img src="	https://limak.az/new_front/assets/img/icons/tr-circle.svg" alt="" />
                             <h3>Türkiyə</h3>

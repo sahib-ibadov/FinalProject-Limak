@@ -1,0 +1,1283 @@
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: 300;
+    src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"),
+        local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Symbol"),
+        local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Light.svg#SanFrancisco-Light) format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Medium.svg#SanFrancisco-Medium) format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Bold.svg#SanFrancisco-Bold) format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Black.svg#SanFrancisco-Black) format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-ExtraBold.svg#SanFrancisco-ExtraBold) format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-SemiBold.svg#SanFrancisco-SemiBold) format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco.svg#SanFrancisco) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-Thin.svg#SanFrancisco-Thin) format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: san francisco;
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.eot);
+    src: url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.eot?#iefix) format('embedded-opentype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.woff2) format('woff2'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.woff) format('woff'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.ttf) format('truetype'), url(https://limak.az/new_front/assets/fonts/SanFrancisco-UltraLight.svg#SanFrancisco-UltraLight) format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.container-jhj {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-jhj {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-jhj {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-jhj {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-jhj {
+        max-width: 1140px;
+    }
+}
+
+.container-jhj {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1650px) {
+    .container-jhj {
+        max-width: 1050px;
+    }
+}
+
+main {
+    display: block;
+}
+
+main {
+    padding-top: 0 !important;
+}
+
+.row-wv3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-wv3 {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.col-wly,
+.col-gy8 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-wly {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-gy8 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+[class*="col-"],
+[class*="col-lg-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-wly,
+.col-xog {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .col-xog {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+aside {
+    display: block;
+}
+
+.card-eze {
+    padding: 10px 0;
+}
+
+.card-qvb {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+.card-qvb {
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+    border-radius: 8px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-3ba {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.tabs-yxn {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-8m7 {
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+    border-radius: 8px;
+    overflow: auto;
+    flex-wrap: nowrap;
+}
+
+.content-whe>.tab-2ga {
+    display: none;
+}
+
+.content-whe>.act-agd {
+    display: block;
+}
+
+.card-sei {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.tabs-yxn .nav-item-sed {
+    font-family: san francisco;
+    width: 33%;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a {
+    color: #373736;
+    outline: 0;
+}
+
+.nav-link-wod {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.nav-link-wod {
+    color: #373736;
+}
+
+.nav-3ba a {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-left: 12px;
+    margin-right: 12px;
+    color: #373736;
+}
+
+.tabs-yxn .nav-link-wod {
+    margin-bottom: -1px;
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.card-8m7 .nav-link-wod {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 44px 0 0;
+    padding: 18px 0;
+    border: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tabs-yxn .nav-link-wod.act-agd {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.card-8m7 .nav-link-wod.act-agd::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #f05835;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.nav-link-wod:hover {
+    text-decoration: none;
+}
+
+.tabs-yxn .nav-link-wod:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.card-8m7 .nav-link-wod:hover {
+    color: #373736;
+}
+
+.tabs-yxn .nav-link-wod:focus,
+.tabs-yxn .nav-link-wod:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.form-group-88a {
+    margin-bottom: 1rem;
+}
+
+.card-rxi .form-group-88a {
+    margin-bottom: 0;
+}
+
+.payment-qon {
+    display: flex;
+    align-items: center;
+}
+
+.custom-p6z {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.checkbox-fnh {
+    padding-left: 0;
+}
+
+.checkbox-rq3 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+select {
+    text-transform: none;
+}
+
+select {
+    word-wrap: normal;
+}
+
+.select-67j {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-67j {
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.select-67j {
+    background-color: #f5f5f7;
+    background-image: url(https://limak.az/new_front/assets/img/icons/caret-down.svg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 15px);
+    background-position-y: center;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    margin: 12px 0;
+    padding-left: 15px;
+    width: 100%;
+    height: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+button {
+    border-radius: 0;
+}
+
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+[type="button"],
+button {
+    -webkit-appearance: button;
+}
+
+.btn-f5x {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-primary-fms {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.block-wlq {
+    display: block;
+    width: 100%;
+}
+
+.d-z2l {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.content-oti {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+}
+
+.item-mh4 {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.upp-fa8 {
+    text-transform: uppercase;
+}
+
+.btn-ca4 {
+    background: linear-gradient(180deg, #FC7B5D 0%, #F05835 100%);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 16px 25px;
+}
+
+.block-wlq {
+    width: 100%;
+}
+
+.btn-f5x.dis-1hv,
+.btn-f5x:disabled {
+    opacity: .65;
+}
+
+.btn-primary-fms.dis-1hv,
+.btn-primary-fms:disabled {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-f5x:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.btn-primary-fms:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.pay-jpv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 4px 10px rgb(0 0 0/5%);
+    border-radius: 8px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card-lz9 {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.mb-cjw {
+    margin-bottom: 20px;
+}
+
+.payment-qon span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #818181;
+    margin-right: 5px;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+.payment-qon strong {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input {
+    overflow: visible;
+}
+
+.input-xcs {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 1rem;
+    height: 1.25rem;
+    opacity: 0;
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.checkbox-fnh .input-xcs {
+    opacity: 0;
+    position: absolute;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.label-yyb {
+    position: relative;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+
+.checkbox-fnh .label-yyb {
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #818181;
+    padding-top: 3px;
+    padding-left: 30px;
+}
+
+.card-rxi .label-yyb {
+    flex-direction: column;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.checkbox-fnh .label-yyb {
+    position: relative;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #818181;
+    padding-left: 30px;
+}
+
+.label-yyb:before {
+    position: absolute;
+    top: .25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    content: "";
+    background-color: #fff;
+    border: #adb5bd solid 1px;
+}
+
+.label-yyb:before,
+.custom-file-label,
+.select-67j {
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.checkbox-fnh .label-yyb::before {
+    border-radius: .25rem;
+}
+
+.checkbox-fnh .label-yyb::after,
+.checkbox-fnh .label-yyb::before {
+    position: absolute;
+    left: -1.5rem;
+    display: block;
+    content: "";
+    border-radius: 4px;
+}
+
+.checkbox-fnh .label-yyb::after,
+.checkbox-fnh .label-yyb::before {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.checkbox-fnh .label-yyb::before {
+    border: 1.5px solid #d7d7d7 !important;
+}
+
+.checkbox-fnh .label-yyb::after,
+.checkbox-fnh .label-yyb::before {
+    position: absolute;
+    left: -1.5rem;
+    display: block;
+    content: "";
+    border-radius: 50%;
+}
+
+.checkbox-fnh .label-yyb::after,
+.checkbox-fnh .label-yyb::before {
+    width: 20px !important;
+    min-width: 20px !important;
+    height: 20px !important;
+    top: 0;
+    left: 0;
+}
+
+.checkbox-fnh .label-yyb::before {
+    border: 2px solid #d7d7d7 !important;
+}
+
+.input-xcs:checked~.label-yyb::before {
+    color: #fff;
+    border-color: #007bff;
+    background-color: #007bff;
+}
+
+.checkbox-fnh .input-xcs:checked~.label-yyb::before {
+    background: #fff;
+    border-color: #f05835 !important;
+}
+
+.checkbox-fnh .input-xcs:checked~.label-yyb::before {
+    background: #fff;
+    border-color: #00b569 !important;
+}
+
+.label-yyb:after {
+    position: absolute;
+    top: .25rem;
+    left: -1.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    content: "";
+    background: 50%/50% 50% no-repeat;
+}
+
+.checkbox-fnh .label-yyb::after {
+    background: no-repeat 50%/50% 50%;
+}
+
+.checkbox-fnh .input-xcs:checked~.label-yyb::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+}
+
+.checkbox-fnh .input-xcs:checked~.label-yyb::after {
+    background-image: url(https://limak.az/new_front/assets/img/icons/check.svg);
+}
+
+.checkbox-fnh .input-xcs:checked~.label-yyb::after {
+    background-image: url(https://limak.az/new_front/assets/images/icons/check.svg) !important;
+}
+
+.pay-jpv .des-xm6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #818181;
+    margin: 17px 0;
+    display: block;
+}
+
+.pay-jpv .bac-36w {
+    color: #f05835;
+    background: #fff;
+    border: 2px solid #f05835;
+}
+
+.pay-jpv .bac-36w:hover {
+    text-decoration: none;
+}
+
+.check-qw5 {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(223, 223, 223, .8);
+    border-radius: 8px;
+    padding: 0;
+}
+
+.card-rxi .check-qw5 {
+    border: none;
+    align-items: flex-start;
+}
+
+[role="button"] {
+    cursor: pointer;
+}
+
+[role="button"] {
+    outline: 0;
+}
+
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.check-qw5 .input-xcs {
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check-qw5 .label-yyb {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 12px;
+    padding-left: 38px;
+    width: 100%;
+}
+
+.radio-6kz .label-yyb::before {
+    border-radius: 50%;
+}
+
+.check-qw5 .label-yyb::before,
+.check-qw5 .label-yyb::after {
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check-qw5 .label-yyb::before {
+    border-color: #d7d7d7;
+}
+
+.card-rxi .check-qw5 .label-yyb::before,
+.card-rxi .check-qw5 .label-yyb::after {
+    top: 0;
+    left: 0;
+    transform: translateY(0);
+}
+
+.check-qw5 .input-xcs:checked~.label-yyb::before {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+}
+
+.radio-6kz .input-xcs:checked~.label-yyb::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+
+.check-qw5 .input-xcs:checked~.label-yyb::after {
+    background: url(https://limak.az/new_front/assets/images/icons/check.svg) center no-repeat;
+    border: 2px solid #00b569;
+    border-radius: 50%;
+}
+
+.card-rxi .check-qw5:last-child .label-yyb {
+    padding-bottom: 0;
+}
+
+.badge-fcp {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.warning-4r3 {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+.content-2z4 {
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+}
+
+.card-7cb {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+h4 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+
+.card-rxi .label-yyb h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 10px;
+    margin-left: 24px;
+    color: #373736;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #767676;
+    margin: 0;
+}
+
+.card-rxi .label-yyb p {
+    color: #818181;
+    font-size: 11.5px;
+    line-height: 18px;
+}
+
+.col-wly,
+.col-ia3 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-ia3 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+}
+
+[class*="col-"],
+[class*="col-sm-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-wly,
+.col-xok {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-xok {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.col-wly,
+.col-vaj {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-vaj {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.col-wly,
+.col-sow {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-sow {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+.col-wly {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+[class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.label-cen {
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: 15px;
+    color: #818181;
+}
+
+.link-7ry {
+    background: #00b569;
+    border: none;
+}
+
+[type="button"]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn-f5x:not(:disabled):not(.dis-1hv) {
+    cursor: pointer;
+}
+
+.link-7ry:hover,
+.link-7ry:active {
+    background: #00b569;
+    border: none;
+}
+
+.block-5ze {
+    display: block !important;
+}
+
+.label-cen>div {
+    display: flex;
+    align-items: center;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;
+}
+
+.label-dag {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+}
+
+.pt-vw3 {
+    padding-top: 0 !important;
+}
+
+.product-rc5>div {
+    display: block !important;
+}
+
+.card-qvb img {
+    width: auto;
+}
+
+.button-bmz img {
+    margin-right: 20px;
+}
+
+.form-control-k7w {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.form-control-k7w {
+    background: #f5f5f7;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px !important;
+    height: 50px;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 15px;
+    color: #818181;
+}
+
+.card-hod .form-control-k7w {
+    height: 40px;
+}
+
+.input-oi5 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.input-oi5 {
+    flex-wrap: nowrap;
+}
+
+.label-cen .check-qw5 {
+    width: calc(100%/2);
+    margin-right: 25px;
+}
+
+.label-cen .check-qw5:last-child {
+    margin-right: 0;
+}
+
+.input-oi5>.form-control-k7w {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.input-o42>.form-control-k7w {
+    border-radius: 8px 0 0 8px !important;
+    border-right-width: 0;
+}
+
+.input-o42>.form-control-k7w {
+    background: #f5f5f7;
+}
+
+.input-oi5:not(.has-validation)>.form-control-k7w:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-6yv {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.input-6yv {
+    margin-left: -1px;
+}
+
+.form-control-k7w:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.input-6vm {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.input-6vm {
+    padding: 0 8px !important;
+}
+
+.input-6vm {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+}
+
+.input-o42 .input-6vm {
+    height: 100%;
+}
+
+.input-o42 .input-6vm {
+    border-radius: 0 8px 8px 0;
+}
+
+.input-o42 .input-6vm {
+    background: #f5f5f7;
+    color: rgba(182, 182, 182, .7);
+}
+
+.input-oi5>.input-6yv>.input-6vm {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-WBAON.style-WBAON {
+    flex-grow: 1 !important;
+    margin-top: 40px;
+}
+
+#__B-2tl.style-mGtTE {
+    display: none;
+}
+
+#style-iwVsI.style-iwVsI {
+    display: inline-block;
+}

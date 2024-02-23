@@ -14,8 +14,11 @@ function App() {
 
 
 
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   const datas = {
-    data, setData
+    data, setData,open,setOpen,handleClose,handleOpen
 
   }
   return (

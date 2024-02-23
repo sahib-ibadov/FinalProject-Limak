@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 const Categories = () => {
 
   const [categories, setCategories] = useState([])
-  useEffect(() => {
+  useEffect(
+    () => {
 
     axios.get('https://localhost:7211/categories').then(res => {
       setCategories(res.data)

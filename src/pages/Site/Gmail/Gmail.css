@@ -1,0 +1,53 @@
+.umin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/random'); 
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.inputGmail {
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  margin-top: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputGmail::placeholder {
+  color: #999;
+}
+
+.inputGmail:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.buutton {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buutton:hover {
+  background-color: #0056b3;
+}
+
+/* Userleft bileşeni için stiller */
+.userleft {
+  /* Userleft bileşenine özgü stiller eklenebilir */
+}

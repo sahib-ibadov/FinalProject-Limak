@@ -30,6 +30,8 @@ import AZNbalans from "../pages/Site/AZNbalans";
 import Baglamamharadadır from "../pages/Site/Baglamamharadadır/Baglamamharadadır";
 import Bağlamamlar from "../pages/Site/Bağlamamlar";
 import Bildirişlər from "../pages/Site/Bildirişlər";
+import Detail from "../pages/Site/Detail/Detail";
+import Gmail from "../pages/Site/Gmail/Gmail";
 import Hesabdançıx from "../pages/Site/Hesabdançıx";
 import Home from "../pages/Site/Home/Home";
 import KALKULYATOR from "../pages/Site/KALKULYATOR/KALKULYATOR";
@@ -37,6 +39,7 @@ import KARGOMAT from "../pages/Site/KARGOMAT/KARGOMAT";
 import Kargomat from "../pages/Site/Kargomat";
 import Kuryer from "../pages/Site/Kuryer";
 import MAGAZALAR from "../pages/Site/MAGAZALAR/MAGAZALAR";
+import Qediyyat from "../pages/Site/Qediyyat";
 import Sifariset from "../pages/Site/Sifariset/Sifariset";
 import Sifarişlər from "../pages/Site/Sifarişlər";
 import SiteRoot from "../pages/Site/SiteRoot";
@@ -45,6 +48,7 @@ import TARIFLER from "../pages/Site/TARIFLER/TARIFLER";
 import TRYbalans from "../pages/Site/TRYbalans";
 import Tənzimləmələr from "../pages/Site/Tənzimləmələr";
 import User from "../pages/Site/User/User";
+import UserKargomatt from "../pages/Site/UserKargomatt/UserKargomatt";
 import Xaricdəkiünvanlar from "../pages/Site/Xaricdəkiünvanlar";
 import XƏBƏRLER from "../pages/Site/XƏBƏRLƏR/XƏBƏRLER";
 import ƏLAQƏ from "../pages/Site/ƏLAQƏ/ƏLAQƏ"
@@ -79,6 +83,10 @@ const ROUTER = [{
         path: "Baglamamharadadır",
         element: <Baglamamharadadır />
     }, {
+        path: "UserKargomatt",
+        element: <UserKargomatt />
+    }
+        , {
         path: "Sifariset",
         element: <Sifariset />
     }, {
@@ -113,12 +121,24 @@ const ROUTER = [{
         path: "AZNbalans",
         element: <AZNbalans />
     }, {
+        path: "Qediyyat",
+        element: <Qediyyat />
+    },
+
+    {
         path: "Tənzimləmələr",
         element: <Tənzimləmələr />
 
     }, {
         path: "Hesabdançıx",
         element: <Hesabdançıx />
+    }, {
+        path: "/ConfirmEmail",
+        element: <Gmail />
+    }
+        , {
+        path: 'xeberler/:id',
+        element: <Detail />
     }]
 }, {
     path: "/Admin",

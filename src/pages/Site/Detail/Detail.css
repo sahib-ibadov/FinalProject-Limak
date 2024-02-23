@@ -1,0 +1,116 @@
+* { 
+    box-sizing: border-box;
+} 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+body { 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #212529; 
+    text-align: left; 
+    background-color: #fff;
+} 
+
+body { 
+    color: #373736; 
+    background: #f8f8f8!important;
+} 
+
+body { 
+    padding-top: 0;
+} 
+
+html { 
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+:root { 
+    --theme-color1: #232331; 
+    --theme-color2: #F15834; 
+    --theme-color3: #ff9205; 
+    --bg-theme-color1: var(--theme-color1); 
+    --bg-theme-color2: var(--theme-color2); 
+    --bg-theme-color3: var(--theme-color3); 
+    --border-theme-color1: var(--theme-color1); 
+    --border-theme-color2: var(--theme-color2); 
+    --border-theme-color3: var(--theme-color3); 
+    --headings-color: #003c38; 
+    --text-font: "Source Sans Pro",sans-serif; 
+    --title-font: "Source Sans Pro",sans-serif; 
+    --h2-font-size: 42px; 
+    --h2-font-weight: 800; 
+    --sec-title-color: var(--headings-color); 
+    --sec-title-font-size: var(--h2-font-size); 
+    --sec-title-font-family: var(--title-font); 
+    --sec-title-font-weight: var(--h2-font-weight); 
+    --sec-title-subtitle-font-family: var(--text-font); 
+    --theme-light-background-text-color: var(--headings-color); 
+} 
+
+a { 
+    color: #007bff; 
+    text-decoration: none; 
+    background-color: transparent;
+} 
+
+a { 
+    color: #373736; 
+    outline: 0;
+} 
+
+.btn-k4x { 
+    background: linear-gradient(180deg,#fc7b5d 0%,#f05835 100%); 
+    border: none; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 15px; 
+    line-height: 18px; 
+    padding: 11px 38px;
+} 
+
+.btn-7xa { 
+    position: relative; 
+    padding: 11px 35px; 
+    min-width: 150px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+} 
+
+a:hover { 
+    color: #0056b3; 
+    text-decoration: underline;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+img { 
+    vertical-align: middle; 
+    border-style: none;
+} 
+
+img { 
+    max-width: 100%;
+} 
+
+.btn-7xa img  { 
+    position: absolute; 
+    left: 11px; 
+    top: 50%; 
+    transform: translateY(-50%);
+} 

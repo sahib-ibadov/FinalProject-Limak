@@ -155,7 +155,7 @@
 .searchForm:hover .searchHover{
     visibility: visible !important;
     opacity: 1 !important;
-    top: 105% !important;
+    top: 100% !important;
     margin-top: 0 !important;
     transition: .3s !important;
 }

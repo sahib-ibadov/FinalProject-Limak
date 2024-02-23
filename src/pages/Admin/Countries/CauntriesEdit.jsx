@@ -46,7 +46,8 @@ const CauntriesEdit = () => {
         handleSubmit: async (values)=>{
             const response = await axios.put(`https://localhost:7211/countries`, values)
             navigate('/admin/countries')
-            toast.success('Countries Successfully Added')        }
+            toast.success('Countries Successfully Added')         
+         }
     });
     return (
         <div>

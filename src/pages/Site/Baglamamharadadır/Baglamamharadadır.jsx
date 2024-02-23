@@ -21,7 +21,7 @@ const Baglamamharadadır = () => {
             </div>
             <div bis_skin_checked="1" class="form-group col-lg-4 col-md-12 col-sm-12 d-flex justify-content-end text-end">
               <button type="submit" class="theme-btn btn-style-one">
-                <span class="btn-title">
+                <span className='bUUUUTTT'  class="btn-title">
                   Axtar
                 </span>
               </button>

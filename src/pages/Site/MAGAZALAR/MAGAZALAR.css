@@ -3,6 +3,38 @@
    
 }
 
+.store-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .row {
+      .item-box {
+        &.hide {
+          display: none;
+        }
+      }
+      .store-item {
+        .card {
+          background: #fff;
+          border-radius: 8px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          height: 156px;
+          box-shadow: none;
+          padding: 55px 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            max-width: 100%;
+            width: auto;
+          }
+        }
+      }
+    }
+  }
 
 .card { 
     position: relative; 

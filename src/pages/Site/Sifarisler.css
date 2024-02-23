@@ -1,0 +1,239 @@
+* { 
+    box-sizing: border-box;
+} 
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+body { 
+    margin: 0; 
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #212529; 
+    text-align: left; 
+    background-color: #fff;
+} 
+
+body { 
+    color: #373736; 
+    background: #f8f8f8!important;
+} 
+
+body { 
+    padding-top: 0;
+} 
+
+html { 
+    font-family: sans-serif; 
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+:root { 
+    --theme-color1: #232331; 
+    --theme-color2: #F15834; 
+    --theme-color3: #ff9205; 
+    --bg-theme-color1: var(--theme-color1); 
+    --bg-theme-color2: var(--theme-color2); 
+    --bg-theme-color3: var(--theme-color3); 
+    --border-theme-color1: var(--theme-color1); 
+    --border-theme-color2: var(--theme-color2); 
+    --border-theme-color3: var(--theme-color3); 
+    --headings-color: #003c38; 
+    --text-font: "Source Sans Pro",sans-serif; 
+    --title-font: "Source Sans Pro",sans-serif; 
+    --h2-font-size: 42px; 
+    --h2-font-weight: 800; 
+    --sec-title-color: var(--headings-color); 
+    --sec-title-font-size: var(--h2-font-size); 
+    --sec-title-font-family: var(--title-font); 
+    --sec-title-font-weight: var(--h2-font-weight); 
+    --sec-title-subtitle-font-family: var(--text-font); 
+    --theme-light-background-text-color: var(--headings-color); 
+} 
+
+.d-o1p { 
+    display: -ms-flexbox!important; 
+    display: flex!important;
+} 
+
+.content-qe9 { 
+    -ms-flex-pack: justify!important; 
+    justify-content: space-between!important;
+} 
+
+.mb-pvw { 
+    margin-bottom: 1rem!important;
+} 
+
+.align-6bb { 
+    align-items: center;
+} 
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+button { 
+    border-radius: 0;
+} 
+
+button { 
+    margin: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+button { 
+    overflow: visible;
+} 
+
+button { 
+    text-transform: none;
+} 
+
+
+
+.btn-kp1 { 
+    display: inline-block; 
+    font-weight: 400; 
+    color: #212529; 
+    text-align: center; 
+    vertical-align: middle; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    background-color: transparent; 
+    border: 1px solid transparent; 
+    padding: .375rem .75rem; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+    border-radius: .25rem; 
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+
+.btn-primary-3ve { 
+    color: #fff; 
+    background-color: #007bff; 
+    border-color: #007bff;
+} 
+
+.btn-gkh { 
+    padding: .25rem .5rem; 
+    font-size: .875rem; 
+    line-height: 1.5; 
+    border-radius: .2rem;
+} 
+
+.btn-ca3 { 
+    background: linear-gradient(180deg,#fc7b5d 0%,#f05835 100%); 
+    border: none; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 15px; 
+    line-height: 18px; 
+    padding: 11px 38px;
+} 
+
+[type="button"]:not(:disabled),button:not(:disabled) { 
+    cursor: pointer;
+} 
+
+.btn-kp1:not(:disabled):not(.disabled) { 
+    cursor: pointer;
+} 
+
+.btn-kp1:hover { 
+    color: #212529; 
+    text-decoration: none;
+} 
+
+.btn-primary-3ve:hover { 
+    color: #fff; 
+    background-color: #0069d9; 
+    border-color: #0062cc;
+} 
+
+.form-fiq { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+} 
+
+select { 
+    margin: 0; 
+    font-family: inherit; 
+    font-size: inherit; 
+    line-height: inherit;
+} 
+
+select { 
+    text-transform: none;
+} 
+
+select { 
+    word-wrap: normal;
+} 
+
+.select-oap { 
+    display: inline-block; 
+    width: 100%; 
+    height: calc(1.5em + .75rem + 2px); 
+    padding: .375rem 1.75rem .375rem .75rem; 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #495057; 
+    vertical-align: middle; 
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat; 
+    border: 1px solid #ced4da; 
+    border-radius: .25rem; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+} 
+
+.select-oap { 
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+} 
+
+.select-oap { 
+    background-color: #f5f5f7; 
+    background-image: url(https://limak.az/new_front/assets/img/dashboard/icons/caret-down.svg); 
+    background-repeat: no-repeat; 
+    background-position-x: calc(100% - 15px); 
+    background-position-y: center; 
+    border: 1px solid #dfdfdf; 
+    border-radius: 8px; 
+    padding: 10px 15px; 
+    width: 100%; 
+    height: 40px; 
+    font-weight: 500; 
+    font-size: 15px; 
+    line-height: 17px; 
+    margin-bottom: 20px; 
+
+} 
+
+.form-fiq .select-oap  { 
+    width: auto; 
+    min-width: 190px; 
+    margin-bottom: 0;
+} 
+
+svg { 
+    overflow: hidden; 
+    vertical-align: middle;
+} 
+
+

@@ -14,6 +14,25 @@ const KALKULYATOR = () => {
         AZN: 0,
         USD: 0
     });
+    const [aznToUsdRate, setAznToUsdRate] = useState(0.0322707);
+    const [usdToAznRate, setUsdToAznRate] = useState(1 / 0.0322707);
+    const [aznAmount, setAznAmount] = useState('');
+    const [usdAmount, setUsdAmount] = useState('');
+    
+    const handleAznInputChange = (event) => {
+        const aznValue = event.target.value;
+        setAznAmount(aznValue);
+        const usdValue = (parseFloat(aznValue) * aznToUsdRate).toFixed(2);
+        setUsdAmount(usdValue);
+    };
+
+    const handleUsdInputChange = (event) => {
+        const usdValue = event.target.value;
+        setUsdAmount(usdValue);
+        const aznValue = (parseFloat(usdValue) * usdToAznRate).toFixed(2);
+        setAznAmount(aznValue);
+    };
+
 
     const calculateTotal = () => {
         const weightValue = parseFloat(weight);
@@ -27,10 +46,11 @@ const KALKULYATOR = () => {
 
         setTotalAmount({ AZN: totalAZN, USD: totalUSD });
     };
+    
 
     return (
         <div className='Kal'>
-            <form className="form-calc snipcss-CzmJt">
+            <form className="form-calc snipcss-CzmJt formkal">
                 <div className="row">
                     <div className="col-6">
                         <select className="custom-select" value={region} onChange={(e) => setRegion(e.target.value)}>
@@ -85,8 +105,82 @@ const KALKULYATOR = () => {
                     </div>
                 </div>
             </form>
+            <div className="mezene">
+                <div className="card-hh8">
+            <div className="form-498">
+                <div className="header-1kk">
+                    <div className="title-8vz">
+                        <img src="https://limak.az/new_front/assets/img/icons/calculator.svg" alt="Calculator Icon" />
+                        <h3>Məzənnə Kalkulyatoru</h3>
+                    </div>
+                </div>
+                <form>
+                    <div className="input-kcf input-kg1 mb-sm-rom">
+                        <input type="number" placeholder="0.0" className="form-control-32p" value={aznAmount} onChange={handleAznInputChange} />
+                        <div className="input-4xh">
+                            <div className="dropdown-oso btn-jwg">
+                                <button type="button" className="btn-a3h dropdown-pez btn-pa5">AZN</button>
+                                <ul className="dropdown-menu-7wi">
+                                    <li><a href="#" className="dropdown-item-wzy act-var">AZN</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">USD</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">TRY</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">RUB</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">CNY</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="input-kcf input-kg1">
+                        <input type="number" placeholder="0.0" className="form-control-32p" value={usdAmount} onChange={handleUsdInputChange} />
+                        <div className="input-4xh">
+                            <div className="dropdown-oso btn-jwg">
+                                <button type="button" className="btn-a3h dropdown-pez btn-pa5">USD</button>
+                                <ul className="dropdown-menu-7wi">
+                                    <li><a href="#" className="dropdown-item-wzy">AZN</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy act-var">USD</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">TRY</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">RUB</a></li>
+                                    <li><a href="#" className="dropdown-item-wzy">CNY</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p className="form-od7">Günün məzənnəsinə uyğun hesablanır.</p>
+                </form>
+                <div className="table-1gn">
+                    <div className="title-8vz">
+                        <img src="https://limak.az/new_front/assets/img/icons/change.svg" alt="Change Icon" />
+                        <h3>Günlük məzənnə</h3>
+                    </div>
+                    <table className="table-thg table-q7s">
+                        <thead>
+                            <tr>
+                                <th><div>Country</div></th>
+                                <th><div>Currency</div></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://limak.az/new_front/assets/img/icons/tr-circle.svg" alt="TR Icon" /><span>1</span></td>
+                                <td><strong>TRY</strong></td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://limak.az/new_front/assets/img/icons/az-circle.svg" alt="AZ Icon" /><span>0.055</span></td>
+                                <td><strong>AZN</strong></td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://limak.az/new_front/assets/img/icons/usa-circle.svg" alt="USA Icon" /><span>0.0322707</span></td>
+                                <td><strong>USD</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>  
 
-            
+            </div>
+
+
         </div>
     );
 }

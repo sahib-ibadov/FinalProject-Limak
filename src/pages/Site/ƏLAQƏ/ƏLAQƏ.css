@@ -50,7 +50,6 @@
        margin-left: 12%;
        margin-top: 3%;
        position: relative;
-
        &::after {
            content: "";
            position: absolute;
@@ -62,4 +61,13 @@
            border-top-right-radius: 8px;
            border-bottom-right-radius: 8px;
        }
+   }
+
+
+   .mapInElaqe {
+       display: none;
+   }
+
+   .openMap {
+       display: flex !important;
    }
